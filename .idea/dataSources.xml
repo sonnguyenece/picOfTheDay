@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="MySQL - comments@localhost" uuid="3c670d02-dbb5-4622-9e60-25b816e69af7">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/comments</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate.conf.xml/Hibernate" uuid="ee44886e-4864-458f-88e3-65285b5c0d3c">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/Codegym'sDoc/Module4/picOfTheDay/picOfTheDay/src/main/resources/hibernate.conf.xml</remarks>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/comments</jdbc-url>
+    </data-source>
+  </component>
+</project>
