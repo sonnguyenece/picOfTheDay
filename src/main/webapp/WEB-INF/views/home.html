@@ -37,7 +37,7 @@
             <td th:text="${comment.date}"></td>
         </tr>
         <tr>
-            <td th:text="${comment.feedback}"></td>
+            <td colspan="2" th:text="${comment.feedback}"></td>
             <td th:text="${comment.likes}"></td>
             <td><a th:href="@{/likeComment/{id}(id=${comment.id})}">
                 <button>Likes</button>
