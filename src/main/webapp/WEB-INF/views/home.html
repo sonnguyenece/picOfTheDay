@@ -32,8 +32,8 @@
     <block th:each="comment: ${comments}">
         <input type="hidden" name="id" th:value="${comment.id}">
         <tr>
-            <td th:text="${comment.rating}"></td>
             <td th:text="${comment.author}"></td>
+            <td colspan="2" th:text="${comment.rating}"></td>
             <td th:text="${comment.date}"></td>
         </tr>
         <tr>
